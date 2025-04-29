@@ -1,7 +1,12 @@
-## MODDED FROM ORIGINAL
-Made the name generate based on WHMCS naming
-----------------
+### Credits to the [original](https://github.com/pterodactyl/whmcs)
 
+## Notable Changes made
+- The username now generates based on WHMCS values.
+    - Example: John_Doe_1
+    - Values: firstname lastname userid
+
+---
+Left the old readme due to helpful information in it and credits
 
 ## WHMCS
 
