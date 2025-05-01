@@ -358,7 +358,7 @@ function pterodactyl_CreateAccount(array $params) {
             else $environment[$var] = $default;
         }
 
-        $name = pterodactyl_GetOption($params, 'server_name', pterodactyl_GenerateUsername() . '_' . $params['serviceid']);
+        $name = pterodactyl_GetOption($params, 'server_name', pterodactyl_GenerateUsername($params) . '_' . $params['serviceid']);
         $memory = pterodactyl_GetOption($params, 'memory');
         $swap = pterodactyl_GetOption($params, 'swap');
         $io = pterodactyl_GetOption($params, 'io');
